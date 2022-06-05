@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+  --main-color: rgb(0, 0, 0);
+  --white-color: rgb(233, 233, 233);
+  --purple-color: rgb(119, 33, 228);
+}
+
+html {
+  font-family: 'Montserrat';
+}
+
+body {
+  padding: 1rem 3rem;
+}
+
+h1,
+h2,
+h4 {
+  color: var(--main-color);
+}
+
+.sign-up {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.nav-ul {
+  margin: 0;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.nav-ul li {
+  display: inline;
+  margin-right: 5px;
+  padding: 0.5rem;
+}
+
+ul.footer-ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+ul.footer-ul li {
+  display: inline;
+  margin-right: 5px;
+  padding: 1rem;
+}
+
+div.card {
+  text-align: center;
+  padding-right: 5rem;
+}
+
+div.all-card {
+  display: flex;
+}
+
+img.main-carusel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.side-img {
+  display: flex;
+  flex-direction: column;
+}
+
+div.product-img img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+div.product-img {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5rem;
+}
+
+div.product-name-and-img {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10rem;
+  margin-top: 3rem;
+}
+
+div.product-name {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+div.product-name h4 {
+  margin-bottom: 3px;
+}
+
+div.product-size ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+div.product-size li {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+button.product-cart {
+  margin-top: 2rem;
+  background-color: var(--purple-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  line-height: 50px;
+}
+button.product-feedback {
+  background-color: var(--purple-color);
+  color: var(--white-color);
+  margin-left: 4rem;
+  height: 40px;
+  line-height: 30px;
+}
+
+button.product-feedback-all {
+  border: none;
+  outline: none;
+}
+
+button.size-button{
+  border: none;
+  outline: none;
+}
+div.feedback-button {
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+div.all-feedback {
+  display: flex;
+}
+
+div.feedback {
+  padding-right: 5rem;
+  margin-top: 2rem;
+}
+
+div.feedbacks {
+  margin-top: 6rem;
+}
+
+div.feedback p {
+  margin-bottom: 1px;
+}
+
+div.feedback img {
+  margin-top: 1rem;
+}
+
+p.feedback-text {
+  margin-top: 2rem;
+}

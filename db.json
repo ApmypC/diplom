@@ -1,0 +1,29 @@
+{
+
+"newProduct": [
+  {
+    "name": "Мадара",
+    "img": "https://storage.vsemayki.ru/images/0/2/2841/2841305/previews/people_11_child_tshirt_front_white_500.jpg",
+    "category": "Футболка",
+    "price": 1003
+  }, 
+  {
+    "name": "Мадара",
+    "img": "https://storage.vsemayki.ru/images/0/2/2841/2841305/previews/people_11_child_tshirt_front_white_500.jpg",
+    "category": "Футболка",
+    "price": 1003
+  }, 
+  {
+    "name": "Мадара",
+    "img": "https://storage.vsemayki.ru/images/0/2/2841/2841305/previews/people_11_child_tshirt_front_white_500.jpg",
+    "category": "Футболка",
+    "price": 1003
+  }, 
+  {
+    "name": "Мадара",
+    "img": "https://storage.vsemayki.ru/images/0/2/2841/2841305/previews/people_11_child_tshirt_front_white_500.jpg",
+    "category": "Футболка",
+    "price": 1003
+  }
+]
+}
